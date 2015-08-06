@@ -29,7 +29,7 @@ function printUsage {
  echo
  echo "  help        this message"
  echo "  import      creates the graphhopper files used for later (faster) starts"
- echo "  web         starts a local server for user access at localhost:8989 and developer access at localhost:8989/route"
+ echo "  web         starts a local server for user access at localhost:80 and developer access at localhost:80/route"
  echo "  build       creates the graphhopper JAR (without the web module)"
  echo "  clean       removes all JARs, necessary if you need to use the latest source (e.g. after switching the branch etc)"
  echo "  measurement does performance analysis of the current source version via artificial, random routes (Measurement class)"
