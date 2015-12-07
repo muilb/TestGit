@@ -1,0 +1,54 @@
+html,body{margin: 0; padding: 0}
+
+a {
+  color: #00B7FF;
+}
+
+#left_panel {
+    position: relative;
+    left: 0px;
+    height: 100%;
+    width: 22%;
+
+}
+#right_panel {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    width: 78%;
+    background-color: #d5f1f3;
+}
+#map {
+    height: 230px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#map_search {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    top: 234px;
+    left: 0;
+}
+#search {
+  width:100%;
+  border-radius:4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.leaflet-div-number-icon {
+	background: transparent;
+	border: none;
+}
+
+.leaflet-marker-icon .number{
+	position: relative;
+	top: -30px;
+	font-size: 10px;
+	width: 25px;
+	text-align: center;
+}
